@@ -8,11 +8,14 @@ import Calc from "../components/calc.astro"
 import Footer from "../components/footer.astro"
 ---
 <Layout>
-<Hero/>
-<Super />
-<Team />
-<Karma/>
-<Calc/> 
-<Footer/>
-
+	<Hero/>
+	<div class=" w-10/12 justify-center m-auto grid lg:grid-cols-3 gap-7">	
+		<Super />
+		<div class="">
+			<Team />
+			<Karma/>
+		</div>
+		<Calc/> 
+	</div>
+	<Footer/>
 </Layout>
